@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "demo-python-fastapi-authen"
+version = "0.1.0"
+description = ""
+authors = ["Natthasath Saksupanara <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_fastapi_authen"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.88.0"
+pydantic = {extras = ["email"], version = "^1.10.2"}
+uvicorn = "^0.20.0"
+python-decouple = "^3.6"
+pyjwt = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
