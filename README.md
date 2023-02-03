@@ -6,7 +6,7 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-### 🥈 Run
+### 🏆 Run
 
 - [http://localhost:8000/docs](http://localhost:8000/docs)
 - [http://localhost:8000/subapi/docs](http://localhost:8000/subapi/docs)
